@@ -33,7 +33,7 @@ export default function TodoForm({ onAddTodo }) {
 				value={input}
 				onChange={onInput}
 				onKeyDown={onKeydown}
-				className='flex-grow h-8 ml-3 pt-0.5 bg-transparent focus:outline-none text-lg hover:border-green-500'
+				className='flex-grow h-8 ml-3 pt-0.5 pl-2 bg-transparent text-lg rounded-lg focus:border focus:outline-none focus:border-blue-500 hover:border-green-500'
 				type='text'
 				placeholder='add a new task'
 			/>
